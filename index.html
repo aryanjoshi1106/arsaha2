@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstraps website</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+       <link rel="stylesheet" type="text/css" href="Animation/animated.css">
+
+  <style type="text/css">
+    
+
+    
+    .page{
+      background-color: #084677d1;
+         overflow: hidden;
+        width: -webkit-fill-available ;
+    }
+    .blue-wrapper{
+      background-color: #084677d1; 
+         overflow: hidden;
+        width: -webkit-fill-available ;
+    }
+     .bg-light{
+      bs-bg-opacity: 1;
+    }
+    .demo_image img{
+      animation-name: magic;
+      animation-delay: 2s;
+      animation-duration: 1s;
+      animation-timeline: ease;
+     }
+      @keyframes magic{
+           0%{
+            transform: translateY(30px);
+           }
+           50%{
+            transform: translateY(50px);
+           }
+           70%{
+            transform: translateY(70px);
+           }
+           100%{
+            transform: translateY(0px);
+           }
+     }
+     .demo_text{
+      padding-top: 4.25rem;
+      line-height: 3rem;
+     }
+     .images{
+      background-color: #f3f5fa;
+      padding-top: 15px;
+      padding-bottom: 1rem;
+     }
+     .slider{
+      padding-top: 1rem;
+     }
+     .about_us h1{
+      color: #02063c;
+     }
+     .question-bar{
+      background-color:#f3f5fa;
+      padding-top: 4.25rem;
+      padding-bottom: 4.25rem;
+      left: 0;
+      right: 0;
+     }
+     .heading{
+      color:#02063c ;
+     }
+     .heading span{
+     text:bold;
+     }
+     .photo{
+      
+      left: 0;
+      right: 0;
+     }
+     .card-header{
+      line-height: 3rem;
+     }
+     .slider{
+      background-color:white;
+      padding-top: 1.40rem;
+      left: 0;
+      right: 0;
+         overflow: hidden;
+        width: -webkit-fill-available ;
+     }
+      .photo1{
+        margin-top: 1.20rem;
+      }
+      .bar-text{
+        margin-top: 1.20rem;
+      }
+      
+      .service-block{
+        background-color: #f3f5fa;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        left: 0;
+        right: 0;
+      }
+      .animation{
+        animation-name: magic;
+      animation-delay: 2s;
+      animation-duration: 1s;
+      animation-timeline: ease;
+     }
+      @keyframes magic{
+           0%{
+            transform: translateY(0px);
+           }
+           50%{
+            transform: translateY(50px);
+           }
+           
+           100%{
+            transform: translateY(0px);
+           }
+      }
+   
+      .call-image{
+        background-color: blue;
+        background-image: url(img/cta-bg.jpg);
+        color: white;;
+        left: 0;
+        right: 0;
+      }
+      .call-overlay{
+        background-color: rgba(0, 0, 0, 0.6);
+
+        padding-top: 6.40rem;
+        padding-bottom: 6.40rem;
+      }
+      
+      .team-wrapper{
+        background-color:#f3f5fa;
+        padding-top: 4.5rem;
+           overflow: hidden;
+        width: -webkit-fill-available ;
+      }
+      .white-block{
+        display: flex;
+        border: 1px solid white;
+        height: 200px;
+        padding-top: 15px;
+        overflow: hidden;
+
+
+
+      }
+      .icons-1{
+        word-spacing: 13px;
+      }
+      .white-text h3{
+        line-height: 18px;
+      }
+      .pricing-wrapper{
+         color: #444444;
+         background-color: #fdfcf9;
+         padding-top:18px;
+         padding-bottom: 18px;
+            overflow: hidden;
+        width: -webkit-fill-available ;
+      }
+    .click{
+      list-style-type: none;
+
+
+    }
+    .pricing-block{
+      border: 1px solid white;
+      background-color: white;
+      box-shadow: 2px 2px white;
+
+
+
+    }
+    .pricing-block ul li{
+      line-height: 35px;
+    }
+
+    .text4{
+      
+    }
+    .asked-wrapper{
+      background-color:#f3f5fa;
+         overflow: hidden;
+        width: -webkit-fill-available ;
+    }
+    
+    .card a:hover{
+      color: skyblue;
+    }
+    .card-header a i{
+      padding-right: 18px;
+    }
+    
+    .contact-wrapper{
+      color: #444444;
+         background-color: #fdfcf9;
+            overflow: hidden;
+        width: -webkit-fill-available ;
+    }
+    .contact-block{
+      height: 735px;
+      border-top: 3px solid skyblue;
+      border-bottom: 3px solid skyblue;
+      box-shadow: 3px 3px white;
+      background-color: white;
+      padding-left: 50px;
+      padding-top: 45px;
+    }
+    .tuv1 i{
+     width: 45px;
+     height: 45px;
+     color: blue;
+     background-color:#f3f5fa;
+     border-radius: 100%;
+     text-align: center;
+     padding-top: 13px;
+
+   }
+   .ram h2{
+    padding-left: 65px;
+    margin-top: -62px;
+   }
+   .nam{
+    padding-left: 65px;
+   }
+   .ram{
+    line-height: 85px;
+   }
+    .form1{
+      background-color: white;
+      padding: 20px;
+    }
+     .rtr{
+      margin-bottom: 20px;
+     }
+     .rtr input{
+       width: -webkit-fill-available;
+      height: 30px;
+      border: 1px solid white;
+      background-color: #f3f5fa;
+     }
+     .rtr label{
+       font-size: 26px;
+      padding-bottom: 6px;
+     }
+     .name-3 input{
+      width: -webkit-fill-available;
+      height: 300px;
+      border: 1px solid white;
+      background-color: #f3f5fa;
+     }
+     .name-3 label{
+      font-size: 26px;
+      padding-bottom: 6px;
+     }
+     .form-4 input{
+      width: -webkit-fill-available;
+      height: 30px;
+      border: 1px solid white;
+      background-color: #f3f5fa;
+     }
+     .form-4 label{
+      font-size: 26px;
+      padding-bottom: 6px;
+     }
+     .name input{
+      height: 30px;
+      border: 1px solid white;
+      background-color: #f3f5fa;
+      width: -webkit-fill-available;
+     }
+     .name label{
+      font-size: 26px;
+      padding-bottom: 6px;
+     }
+     .form1{
+      box-shadow: 2px 2px white;
+      border-top: 3px solid skyblue;
+      border-bottom: 3px solid skyblue;
+
+     }
+     .join-wrapper{
+      background-color: #f3f5fa;
+         overflow: hidden;
+        width: -webkit-fill-available ;
+     }
+     .photo1{
+
+         overflow: hidden;
+        width: -webkit-fill-available ;
+     }
+     .progress-bar{
+
+         overflow: hidden;
+        width: -webkit-fill-available ;
+     }
+     .button-4 input{
+
+      border-bottom-left-radius:50px ;
+      border-top-left-radius: 50px;
+      border: 1px solid skyblue;
+         border: 1px solid transparent;
+     }
+     .button-4{
+      padding-left: -20px;
+     }
+     .button2 a{
+      text-decoration: none;
+      border: 1px solid skyblue;
+      border-bottom-right-radius: 40px;
+      border-top-right-radius: 40px;
+      background-color: skyblue;
+      padding: 10px;
+     }
+
+     .useful-block1 ul li{
+      list-style-type: none;
+      line-height: 28px;
+     }
+     .useful-block1 ul span li{
+      padding-top: 25px;
+      line-height: 1px;
+     }
+     .useful-block2 ul li{
+      list-style-type: none;
+      line-height: 40px;
+     }
+     .useful-block2 ul li i{
+      padding-right: 10px;
+     }
+     .icon-99 i{
+       padding:10px;
+      
+     }
+     .blue-block{
+      padding-left: 150px;
+     }
+     .blue-block h5 a{
+      color:skyblue;
+      text-decoration: none;
+     }
+     .blueblock h5 a:hover{
+      color: white;
+     }
+     .photo{
+      width:-webkit-fill-available ; 
+      
+     }
+     .card-1 span i{
+      float: right;
+      padding-top: 15px;
+      }
+      .card-2 span i{
+      float: right;
+      padding-top: 15px;
+      }
+      .card-3 span i{
+      float: right;
+      padding-top: 15px;
+      }
+      .card-4 span i{
+      float: right;
+      padding-top: 15px;
+      }
+      .card-5 span i{
+      float: right;
+      padding-top: 15px;
+      }
+      .portfolio_wrapper{
+        background-color:white;
+        padding-top:20px;
+        padding-bottom: 20px;
+        overflow: hidden;
+        width: -webkit-fill-available ;
+
+
+}
+  .portfolio-block ul li{
+    list-style: none;
+    margin-bottom: 20px;
+   padding: 5px;
+  }
+   .bar-1 {
+      
+      }
+  .html li{
+  list-style-type: none;
+  }
+  .html{
+    display: flex;
+  }
+  .list-1 li{
+  list-style-type: none;
+  }
+  .list-1{
+    display: flex;
+  }
+  .skil-1{
+    float: right;
+    
+  }
+  .card1 i{
+    float: right;
+    padding-top: 15px;
+    }
+    .card2 i{
+    float: right;
+     padding-top: 15px;
+    }
+    .card3 i{
+    float: right;
+    padding-top: 15px;
+    }
+    .button-4 input{
+  
+      overflow: hidden;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    }
+    .slider_text p i{
+      padding-right: 10px;
+    }
+    .progress-bar{
+
+         overflow: hidden;
+        width: -webkit-fill-available ;
+     }
+     .progress-text{
+     opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+       
+
+     }
+     .images{
+      background-color: #f3f5fa;
+      filter: grayscale(100);
+      padding: 15px 0px;
+     }
+
+     .progress-text h3{
+          font-weight: 700;
+    font-size: 32px;
+    color: #37517e;
+    font-family: "Poppins", sans-serif;
+     }
+     .progress-6{
+       line-height: 10px;
+     }
+     .progress-6 h3{
+      padding-right: 18px;
+     }
+     .fgh{
+      text-align: initial;
+      line-height: 0px;
+     }
+     .progress-7{
+      text-align: initial;
+      line-height: 15px;
+      padding-bottom: 15px;
+     }
+     
+   .skill-wrapper{
+    text-align: left;
+    padding-top: 15px;
+   }
+   .skill-block span{
+    float: right;
+   }
+    .skill-block progress-bar{
+      width: 100%;
+    }
+    .skill-block{
+      padding-bottom: 8px;
+    }
+    .skill-block-1 span{
+      float: right;
+    }
+    
+    .skill-block-2 span{
+      float: right;
+    }
+    
+    .skill-block-3 span{
+      float: right;
+    }
+    .slider_text p i{
+      color: skyblue;
+    }
+    .grid-wrapper {
+      background-color: #f3f5fa;
+      filter: grayscale(100);
+      padding: 15px 0px;
+     }
+     
+
+
+
+
+    @media(max-width:375px){
+      .demo_text h1{
+        font-size: 18px;
+      }
+      .demo_text h5{
+        font-size: 14px;
+      }
+      .demo_text button{
+        font-size: 16px;
+      }
+      .demo_image {
+        width: 270px;
+        text-align: center;
+      }
+      .grid-wrapper  img{
+        width: 50%;
+    }
+    .skill img{
+      width: 25%;
+    }
+    }
+   
+    }
+    
+
+    
+    
+
+       </style>
+      
+     
+    
+</head>
+<body style="background-color: #898181ab;">
+  <div class="page" >
+    <div class="header1">
+  <nav class="navbar navbar-expand-lg navbar-light bg- #084677d1">
+  <div class="container-fluid text-white">
+    <a class="navbar-brand text-white" href="#">ARSHA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="front-page">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="Service.html">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="team.html">Team</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled text-wh\ite" href="contact.html" tabindex="-1" aria-current="page">Contact</a>
+        </li>
+      </ul>
+     
+        <button class="btn btn-outline-success text-white" type="submit">Get Started</button>
+    </div>
+  </div>
+  </div>
+
+</nav>
+<div class="demo pb-5 ">
+  <div class="container animate__bounceInDown">
+    <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <div class="demo_text pb-5">
+    <h1 class="text-white">Better Solutions For Your<br> Business</h1>  <h5 class="text-light">We are team of talented designers making webs<br>bootstraps</h5>
+    <button class="button btn btn-info rounded-pill" style="margin-top: 50px;">Get Started
+      
+    </button>
+  </div>
+</div>
+
+    <div class="col-lg-6">
+    <div class="demo_image" >
+      <img src="img/hero-img.png" class="img-fluid">
+
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-wrapper pt-4 pb-4">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2 col-sm-6 col-md-6">
+<div class="skill">
+      <img src="img/client-1.png" style="max-width: 45%;" class="img-fluid"></div>
+    </div>
+    <div class="col-lg-2 col-sm-6 col-md-6">
+      <div class="skill">
+      <img src="img/client-2.png" style="max-width: 45%;"  class="img-fluid">
+    </div>
+    </div>
+    <div class="col-lg-2 col-sm-6 col-md-6">
+      <div class="skill">
+      <img src="img/client-3.png" style="max-width: 45%;" class="img-fluid"></div>
+    </div>
+    <div class="col-lg-2 col-sm-6 col-md-6">
+      <div class="skill">
+      <img src="img/client-4.png" style="max-width: 45%;" class="img-fluid"></div>
+    </div>
+    <div class="col-lg-2 col-sm-6 col-md-6">
+      <div class="skill">
+      <img src="img/client-5.png" style="max-width: 45%;" class="img-fluid"></div>
+    </div>
+    <div class="col-lg-2 col-sm-6` col-md-6">
+      <div class="skill">
+      <img src="img/client-6.png" style="max-width: 45%;" class="img-fluid"></div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="slider col-md-6 col-sm-12">
+  <div class="container text-center">
+  <div class="about_us">
+    <h1>About us</h1>
+  </div>
+</div>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+      <div class="row pt-4 pb-4">
+        <div class="col-lg-6 col-md-12" >
+          <div class="slider_text ms-5">
+           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<p><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+<p><i class="fa-solid fa-check-double"></i>Duis aute irure dolor in reprehenderit in voluptate velit</p>
+<p><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+          </div>
+          
+        </div>
+        <div class="col-lg-6 col-md-12">
+<p> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <button class="btn btn-outline-info pt-2 pb-2 ps-4 pe-4" >View All</button>
+
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+      <div class="carousel-item">
+        <div class="container">
+      <div class="row pt-4 pb-4">
+        <div class="col-lg-6 col-md-12 col-sm-12" >
+          <div class="slider_text ms-5"> 
+
+
+           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<p><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+<p><i class="fa-solid fa-check-double"></i>Duis aute irure dolor in reprehenderit in voluptate velit</p>
+<p><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+
+   
+          </div>
+          
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+
+          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <button class="btn btn-outline-info pt-2 pb-2 ps-4 pe-4" >View All</button>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="carousel-item">
+      <div class="container">
+      <div class="row pt-4 pb-4">
+        <div class="col-lg-6 col-md-12 col-sm-12" >
+          <div class="slider_text ms-5">
+           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<p><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+<p><i class="fa-solid fa-check-double"></i>Duis aute irure dolor in reprehenderit in voluptate velit</p>
+<p><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+   
+          </div>
+          
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <button class="btn btn-outline-info pt-2 pb-2 ps-4 pe-4" >View All</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<div class="question-bar" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h1 class="heading">Eum ipsam laborum deleniti<b> velit
+        pariatur architecto aut nihil</b></h1>
+          <h6 style="margin-bottom: 20px; line-height:25px;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</h6>
+          
+          <div id="accordion">
+          
+
+  <div class="card mb-3">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+        01 Non consectetur a erat nam at lectus urna duis? 
+      </a>
+      <span class="card1"><i class="fa-solid fa-chevron-down"></i></span>
+    </div>
+    <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+     <p> Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+  02 Feugiat scelerisque varius morbi enim nunc? 
+      </a>
+      <span class="card2"><i class="fa-solid fa-chevron-down"></i></span>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+      03 Dolor sit amet consectetur adipiscing elit?
+      </a>
+       <span class="card3"><i class="fa-solid fa-chevron-down"></i></span>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        
+Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+      </div>
+    </div>
+  </div>
+
+</div>
+
+      </div>
+        <div class="col-lg-6 col-md-6 col-sm-12" text-center>
+              <img  class="photo"  src="img/why-us.png" class="img-fluid" >
+            </div>
+    </div>
+  </div>
+</div>
+
+<div class="progress-bar bg-white pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+          <img class="photo1" src="img/skills.png">
+       </div>
+      
+    <div class="col-lg-6 pt-4 pt-lg-0 content aos-init aos-animate" data-aos="fade-left" data-aos-delay="100">
+      <div class="progress-text">
+        <div class="progress-6">
+            <h3>Voluptatem dignissimos provident quasi</h3><h3 class="progress-7"> corporis voluptates</h3>
+            <p class="progress-5">
+             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p><p class="fgh"> labore et dolore
+              magna aliqua.</p>
+            </p>
+          </div>
+        </div>
+       <div class="skill-wrapper">
+         <div class="skill-block">
+          HTML<span>100%</span>
+       </div>
+       <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+      <div class="skill-block-1 pt-3 pb-2">
+          CSS<span>90%</span>
+       </div>
+       <div class="progress">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+      <div class="skill-block-2 pt-3 pb-2">
+          JAVASCRIPT<span>75%</span>
+       </div>
+       <div class="progress">
+        <div class="progress-bar" style="width: 75%;"></div>
+      </div>
+       <div class="skill-block-3 pt-3 pb-2">
+          PHOTOSHOP<span>55%</span>
+       </div>
+       <div class="progress">
+        <div class="progress-bar" style="width: 55%;"></div>
+      </div>
+      
+
+</div>
+</div>
+</div>
+
+
+
+
+
+    
+</div>
+</div>
+  <div class="service-block pt-5 pb-5">
+    <div class="container">
+      <div class="service-heading text-center">
+          <h1>Our Services</h1>
+          <p class="ytr pb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui <br>impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <div class="row">
+         
+          <div class="col-lg-3 border p-5 bg-white ">
+             <div class="animation">
+            <i class="fa-solid fa-globe"></i>
+            <h2>Lorem Ipsum</h2>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          </div>
+        </div>
+          
+          <div class="col-lg-3 border p-5 bg-white">
+            <div class="animation">
+            <i class="fa-regular fa-rectangle-list"></i>
+            <h2>Sed ut perspici</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+          
+          <div class="col-lg-3 border p-5 bg-white ">
+            <div class="animation">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+            <h2>Magni Dolores</h2>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          </div>
+        </div>
+          
+          <div class="col-lg-3 border p-5 bg-white ">
+            <div class="animation">
+            <i class="fa-solid fa-shapes"></i>
+           <h2> Nemo Enim</h2>
+         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+   <div class="call-image">
+    <div class="call-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+           
+              <h2>Call To Action</h2>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <button class="btn btn-outline-secondary p-3 rounded-pill text-white">Call to Action</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="portfolio_wrapper pt-5 pb-5">
+  <div class="container">
+  <div class="heading-folio text-center">
+    <h2>PORTFOLIO</h2>
+    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+  </div>
+  <div class="portfolio-block">
+ <ul id="portfolio-flters" class="d-flex justify-content-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">App</li>
+          <li data-filter=".filter-card">Card</li>
+          <li data-filter=".filter-web">Web</li>
+        </ul>
+      </div>
+        <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1267.12px;">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
+            <div class="portfolio-img"><img src="img/portfolio-1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <a href="portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 440px; top: 0px;">
+            <div class="portfolio-img"><img src="img/portfolio-2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 880px; top: 0px;">
+            <div class="portfolio-img"><img src="img/portfolio-3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 880px; top: 264px;">
+            <div class="portfolio-img"><img src="img/portfolio-4.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 440px; top: 308.931px;">
+            <div class="portfolio-img"><img src="img/portfolio-5.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 451.708px;">
+            <div class="portfolio-img"><img src="img/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 880px; top: 569.069px;">
+            <div class="portfolio-img"><img src="img/portfolio-7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 880px; top: 869.097px;">
+            <div class="portfolio-img"><img src="img/portfolio-8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 440px; top: 960.778px;">
+            <div class="portfolio-img"><img src="img/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    </div>
+</div>
+<div class="team-wrapper bg-#f3f5fa; pt-5 pb-5">
+  <div class="container">
+    <div class="team-heading text-center">
+      <h2>TEAM</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+  </div>
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-6">
+    <div class="white-block bg-white p-3 ms-5 mb-4 mt-5">
+<div class="white-image">
+      <img src="img/team-1.jpg" height="140px" width="140px" style="border-radius: 100%;">
+    </div>
+    <div class="white-text ps-5 ">
+      <h3>Walter White</h3>
+      <p>chief Excutive Officer</p>
+      <p>Explicabo voluptatem mollitist et repellat qui dolorum quasi  </p>
+      <div class="icons-1">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="white-block bg-white p-3 ms-5 mb-4 mt-5">
+<div class="white-image">
+      <img src="img/team-2.jpg" height="140px" width="140px" style="border-radius: 100%;">
+    </div>
+    <div class="white-text ps-5 ">
+      <h3>Walter White</h3>
+      <p>chief Excutive Officer</p>
+      <p>Explicabo voluptatem mollitist et repellat qui dolorum quasi  </p>
+      <div class="icons-1">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="white-block bg-white p-3 ms-5">
+<div class="white-image">
+      <img src="img/team-3.jpg" height="140px" width="140px" style="border-radius: 100%;">
+    </div>
+    <div class="white-text ps-5 ">
+      <h3>Walter White</h3>
+      <p>chief Excutive Officer</p>
+      <p>Explicabo voluptatem mollitist et repellat qui dolorum quasi  </p>
+      <div class="icons-1">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="white-block bg-white p-3 ms-5">
+<div class="white-image">
+      <img src="img/team-4.jpg" height="140px" width="140px" style="border-radius: 100%;">
+    </div>
+    <div class="white-text ps-5 ">
+      <h3>Walter White</h3>
+      <p>chief Excutive Officer</p>
+      <p>Explicabo voluptatem mollitist et repellat qui dolorum quasi  </p>
+      <div class="icons-1">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="pricing-wrapper pb-5 pt-5">
+  <div class="container">
+    <div class="pricing-heading text-center">
+      <h1>PRICING</h1>
+  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="pricing-block p-5 mt-5">
+        <h3>Free Plan</h3>
+        <h1><max>$</max>0</h1>
+        <p class="text4">For month</p>
+        <ul>
+         <li> Quam adipiscing vitae proin</li>
+           <li>Nec feugiat nisl pretium</li>
+             <li>Nulla at volutpat diam uteera</li>
+              <li>Pharetra massa massa ultricies</li>
+                <li>Massa ultricies mi quis hendrerit</li>
+                <li class="click mt-5"><button class="btn btn-outline-info rounded-pill">Get Started</button></li>
+        </ul>
+
+      </div>
+    </div>
+      <div class="col-lg-4">
+      <div class="pricing-block p-5 mt-5">
+        <h3>Free Plan</h3>
+        <h1><max>$</max>0</h1>
+        <p class="text4">For month</p>
+        <ul>
+         <li> Quam adipiscing vitae proin</li>
+           <li>Nec feugiat nisl pretium</li>
+             <li>Nulla at volutpat diam uteera</li>
+              <li>Pharetra massa massa ultricies</li>
+                <li>Massa ultricies mi quis hendrerit</li>
+                <li class="click mt-5"><button class="btn btn-outline-info rounded-pill">Get Started</button></li>
+        </ul>
+
+      </div>
+    </div>
+      <div class="col-lg-4">
+      <div class="pricing-block p-5 mt-5">
+        <h3>Free Plan</h3>
+        <h1><max>$</max>0</h1>
+        <p class="text4">For month</p>
+        <ul>
+         <li> Quam adipiscing vitae proin</li>
+           <li>Nec feugiat nisl pretium</li>
+             <li>Nulla at volutpat diam uteera</li>
+              <li>Pharetra massa massa ultricies</li>
+                <li>Massa ultricies mi quis hendrerit</li>
+                <li class="click mt-5"><button class="btn btn-outline-info rounded-pill">Get Started</button></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="asked-wrapper pt-5 pb-5">
+    <div class="container">
+      <div class="asked-heading text-center">
+        <h1>FREQUENTLY ASKED QUESTIONS</h1>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+    </div>
+    <div class="container">
+    <div class="card-block ps-3 pe-3 mt-5 mb-3">
+      
+      <div id="accordion">
+   <div class="card-1">
+  <div class="card mb-3">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+        <i class="fa-solid fa-circle-question"></i>Non consectetur a erat nam at lectus urna duis?  </a>
+        <span><i class="fa-solid fa-chevron-down"></i></span>
+    
+    </div>
+    <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="card-2">
+  <div class="card mb-3">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapsetwo">
+        <i class="fa-solid fa-circle-question"></i>Feugiat scelerisque varius morbi enim nunc?
+      </a>
+      <span><i class="fa-solid fa-chevron-down"></i></span>
+    </div>
+    <div id="collapsetwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card-3">
+  <div class="card mb-3">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapsethree">
+        <i class="fa-solid fa-circle-question"></i>Dolor sit amet consectetur adipiscing elit?
+      </a>
+      <span><i class="fa-solid fa-chevron-down"></i></span>
+    </div>
+    <div id="collapsethree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card-4">
+  <div class="card mb-3">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapsefour">
+        <i class="fa-solid fa-circle-question"></i>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+
+      </a>
+      <span><i class="fa-solid fa-chevron-down"></i></span>
+    </div>
+    <div id="collapsefour" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card-5">
+  <div class="card ">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapsefive">
+        <i class="fa-solid fa-circle-question"></i>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+      </a>
+      <span><i class="fa-solid fa-chevron-down"></i></span>
+    </div>
+    <div id="collapsefive" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+    </div>
+  </div>
+  </div>
+  <div class="contact-wrapper pt-5 pb-5 ">
+    <div class="container">
+      <div class="contact-heading text-center">
+    <h2 class="red pb-3">CONTACT</h2>
+    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="contact-block  mt-4">
+      <a  class="tuv1" href="#"><i class="fa-solid fa-location-dot" ></i></a> <span class="ram"><h2> Location:</h2></span>
+          <p class="nam">A108 Adam Street, New York, NY 535022</p>
+
+           <a class="tuv1" href="#"><i class="fa-regular fa-envelope"></i></a> <span class="ram"><h2>Email:</h2></span>
+               <p class="nam">info@example.com</p>
+
+                <a class="tuv1" href="#"><i class="fa-solid fa-phone-volume"></i></a> <span class="ram"><h2>Call:</h2></span>
+                    <p class="nam">+1 5589 55488 55s</p>
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 95%; height: 290px; margin-top: 30px;" allowfullscreen=""></iframe>
+    </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="form1 mt-4">
+        <div class="form-4">
+            <label>Your Name</label><br>
+            <input type="name" name="your name"><br></div>
+           <div class="name pb-2 pt-2"> <label>Your Email</label><br>
+            <input type="email" name="your name"><br></div>
+    <div class="rtr ">
+      <label>Subject</label><br>
+      <input type="text" name="subject">
+    </div>
+  <div class="name-3 pt-2 pb-2">
+    <label>Message</label><br>
+    <input type="text" name="message">
+  </div>
+  <div class="tag text-center pt-3 pb-3">
+  <button class="btn btn-info text-center text-white rounded-pill p-2">Send Message</button>
+</div>
+</div>
+     </div>
+    </div>
+  </div> 
+  <div class="join-wrapper pt-4 pb-4 ">
+    <div class="container">
+    <div class="join-heading text-center">
+     <h2>Join Our Newsletter</h2>
+     <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+    </div>
+    <div class="button2 text-center pt-5">
+      <span class="button-4"><input type="text" name="subscribe"></span>
+      <a href="#">Subscribe</a>
+    </div>
+  </div> 
+  </div>
+  <div class="useful-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="useful-block1 pt-5">
+            <ul>
+             <li><h2> ARSHA</h2></li>
+             <li>A108 Adam Street</li>
+               <li>New York, NY 535022</li>
+                <li>United States</li>
+
+               <span><li><b>Phone:</b> +1 5589 55488 55</li>
+                   <li><b>Email:</b> info@example.com</li></span>
+            </ul>
+          </div>
+        </div>
+         <div class="col-lg-3">
+          <div class="useful-block2 pt-5">
+            <ul>
+             <li><h4>Useful links</h4></li>
+             <li><i class="fa-solid fa-angle-right"></i>Home</li>
+               <li><i class="fa-solid fa-angle-right"></i>About us</li>
+                <li><i class="fa-solid fa-angle-right"></i>Services</li>
+                  <li><i class="fa-solid fa-angle-right"></i>Terms of service</li>
+                  <li><i class="fa-solid fa-angle-right"></i>Privacy policy</li>
+            </ul>
+          </div>
+        </div>
+         <div class="col-lg-3">
+          <div class="useful-block2 pt-5">
+            <ul>
+             <li><h4>Useful links</h4></li>
+             <li><i class="fa-solid fa-angle-right"></i>Web Design</li>
+               <li><i class="fa-solid fa-angle-right"></i>Web Development</li>
+                <li><i class="fa-solid fa-angle-right"></i>Product Managment</li>
+                  <li><i class="fa-solid fa-angle-right"></i>Marketing</li>
+                  <li><i class="fa-solid fa-angle-right"></i>Graphic Design</li>
+            </ul>
+          </div>
+        </div>
+         <div class="col-lg-3">
+          <div class="useful-block1 pt-5">
+            <ul>
+             <li><h4>Our Social Networks</h4></li>
+             <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+              <div class="icon-99">
+                 <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="blue-wrapper text-white pt-3 pb-3">
+    <div class="container">
+      <div class="row">
+      <div class="col-lg-8">
+        <h5>© Copyright Arsha.All Rights Reserved</h5>
+      </div>
+      <div class="col-lg-4">
+        <div class="blue-block">
+        <h5> Designed by<a href="#"> BootstrapMade</a></h5>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
